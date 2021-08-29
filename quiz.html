@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Triangles App | Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="div-nav">Fun With Triangles</div>
+      <ul class="nav-list">
+        <li class="nav-list">
+          <a class="link" href="angle.html">Angles of Triangle</a>
+        </li>
+        <li class="nav-list">
+          <a class="link" href="area.html">Area of Triangle</a>
+        </li>
+        <li class="nav-list">
+          <a class="link" href="hypotenuse.html">Hypotenuse of Triangle</a>
+        </li>
+        <li class="nav-list">
+          <a class="link" href="quiz.html"> play Quiz</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <h1>Fill in the Quiz</h1>
+
+      <form class="quiz-form">
+        <div class="question-container">
+          <h3>A triangle have ____ sides.</h3>
+          <label><input type="radio" name="question1" value="1" />1</label>
+          <label><input type="radio" name="question1" value="2" />2</label>
+          <label><input type="radio" name="question1" value="3" />3</label>
+        </div>
+
+        <div>
+          <h3>Sum of angles in a triangle is equal to _____.</h3>
+          <label><input type="radio" name="question2" value="100" />90</label>
+          <label><input type="radio" name="question2" value="200" />280</label>
+          <label><input type="radio" name="question2" value="180" />180</label>
+        </div>
+
+        <div>
+          <h3>
+            If a triangle have two equal sides, it is called as __________
+            triangle.
+          </h3>
+          <label
+            ><input type="radio" name="question3" value="Obtuse" />Obtuse</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question3"
+              value="Equilateral"
+            />Equilateral</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question3"
+              value="Isoceles"
+            />Isoceles</label
+          >
+        </div>
+
+        <div>
+          <h3>Which Angle measurements does NOT create a Triangle?</h3>
+          <label
+            ><input
+              type="radio"
+              name="question4"
+              value="606060"
+            />60,60,60</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question4"
+              value="904545"
+            />90,45,45</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question4"
+              value="506040"
+            />50,60,40</label
+          >
+        </div>
+
+        <div>
+          <h3>
+            If two angles of a triangle is 50 and 30 respectively, then the
+            third angle is ____.
+          </h3>
+          <label><input type="radio" name="question5" value="100" />100</label>
+          <label><input type="radio" name="question5" value="120" />120</label>
+          <label><input type="radio" name="question5" value="80" />80</label>
+        </div>
+      </form>
+
+      <button class="button">Submit Answers</button>
+
+      <div class="output"></div>
+    </div>
+    <script src="/quiz.js"></script>
+  </body>
+</html>
