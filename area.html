@@ -27,19 +27,19 @@
         </li>
       </ul>
     </nav>
+    <h1>Triangle Area Calculator.</h1>
+    <h3>Enter required feilds to calculate Area of Triangle.</h3>
 
-    <div class="container">
-      <h1>Do these angles make a Triangle ?</h1>
-      <label for="angle-1">angle 1</label>
-      <input type="number" class="angle-input" />
-      <label for="angle-2">angle 2</label>
-      <input type="number" class="angle-input" />
-      <label for="angle-3">angle 3</label>
-      <input type="number" class="angle-input" />
-      <button id="check">Lets Check</button>
-      <div class="output"></div>
-    </div>
+    <label for="base">Base = </label>
+    <input type="number" id="base" />
 
-    <script src="app.js"></script>
+    <label for="height">Height = </label>
+    <input type="number" id="height" />
+
+    <br /><button id="check">Calculate</button>
+
+    <div id="output"></div>
+
+    <script src="/area.js"></script>
   </body>
 </html>
