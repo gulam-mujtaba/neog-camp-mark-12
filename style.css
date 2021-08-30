@@ -23,14 +23,14 @@ button {
 #homebtn {
   padding: 20px;
   display: flex-inline;
-
   margin: 20px;
   font-size: x-large;
   color: #011c24;
   border-width: medium;
-  border-color: black;
+  border-color: none;
   border-radius: 50px;
 }
+
 .div-nav-main {
   block-size: auto;
   padding: 50px;

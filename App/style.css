@@ -23,14 +23,14 @@ button {
 #homebtn {
   padding: 20px;
   display: flex-inline;
-
   margin: 20px;
   font-size: x-large;
   color: #011c24;
-  border-width: medium;
-  border-color: black;
+  border-width: none;
+  border-color: none;
   border-radius: 50px;
 }
+
 .div-nav-main {
   block-size: auto;
   padding: 50px;
@@ -52,10 +52,21 @@ button {
   text-decoration: none;
   color: #011c24;
   font-size: medium;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  text-rendering: optimizeLegibility;
   font-weight: bold;
 }
 
+a:hover {
+  color: #004158;
+}
+
+input {
+  font-family: poppins;
+}
+button:hover {
+  color: #001d22;
+}
 .quiz-form {
   text-align: left;
 }
