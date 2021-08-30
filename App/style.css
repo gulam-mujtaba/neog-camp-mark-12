@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  font-family: poppins;
+  padding: 25px;
+  background-color: #2ba393;
+  text-align: center;
+}
+
+button {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: medium;
+  font-weight: bold;
+  color: #fff7af;
+  background-color: #20969e;
+  border-color: #004158;
+  margin: 35px;
+  grid-auto-columns: ch;
+}
+
+#homebtn {
+  padding: 20px;
+  display: flex-inline;
+
+  margin: 20px;
+  font-size: x-large;
+  color: #011c24;
+  border-width: medium;
+  border-color: black;
+  border-radius: 50px;
+}
+.div-nav-main {
+  block-size: auto;
+  padding: 50px;
+}
+
+.nav-bar {
+  display: inline;
+}
+
+.nav-list {
+  display: inline-flex;
+  margin: 15px;
+  padding: 5px;
+  background-color: #94e6ff;
+  border-radius: 5pc;
+}
+
+.link {
+  text-decoration: none;
+  color: #011c24;
+  font-size: medium;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.quiz-form {
+  text-align: left;
+}
+
+input {
+  padding: 15px;
+  border-radius: 20px;
+  border-color: #011c24;
+}
+
+.div-nav {
+  font-size: x-large;
+  color: #ffffff;
+}
+
+label {
+  font-size: large;
+  color: #002325;
+}
+
+.output {
+  font-size: x-large;
+  color: #daffff;
+}
+
+#output {
+  font-size: x-large;
+  color: #daffff;
+}
