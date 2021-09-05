@@ -23,7 +23,7 @@ function answer (){
     console.log(score)
     
     if (score === 5){
-        divOutput.innerText = "Good Job. Triangle Master 📐";
+        divOutput.innerText = "Good Job. Triangle Master 📐 Your Score is " + score;
     }else {
         divOutput.innerText = "Your Score is " + score + ". Give it another try. Triangles are Easy";
     }
